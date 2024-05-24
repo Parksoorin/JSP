@@ -11,3 +11,23 @@
 	[정답]
 		21,500원		
 --%>
+
+<%
+	int km = 23;
+	int total = 0;
+	
+    if(km > 10){
+    	total += 10000;
+    	km -= 10;
+    } else {
+    	total += 10000;
+    }
+    
+    if(km % 3 == 0){
+    	total += km / 3 * 2300;
+    } else {
+    	total += (km / 3 + 1) * 2300;
+    }
+%>
+
+<%= total %>
