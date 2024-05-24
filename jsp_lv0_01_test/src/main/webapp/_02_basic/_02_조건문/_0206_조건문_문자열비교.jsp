@@ -37,24 +37,24 @@
 		String a2 = "aaaa";
 		String b2 = "aaaa";
 	%>
-		<% if(a.compareTo(b) == 0){%>
-			서로같다.
-		<% }else{%>
-			서로다르다.
-		<%} %>
-		
-		
-		<% if(a1.equals(b1) == true){%>
-			서로같다.
-		<% }else{%>
-			서로다르다.
-		<%} %>
-		
-		<% if(a2.equals(b2)){%>
-			서로같다.
-		<% }else{%>
-			서로다르다.
-		<%} %>
+	<% if(a.compareTo(b) == 0){%>
+		서로같다.
+	<% }else{%>
+		서로다르다.
+	<%} %>
+	
+	
+	<% if(a1.equals(b1) == true){%>
+		서로같다.
+	<% }else{%>
+		서로다르다.
+	<%} %>
+	
+	<% if(a2.equals(b2)){%>
+		서로같다.
+	<% }else{%>
+		서로다르다.
+	<%} %>
 	
 </body>
 </html>

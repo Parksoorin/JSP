@@ -8,8 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	
+	<%
 		/*
 		    [문제]		  
 		        a는 0  ~ 9  사이의 랜덤 숫자를 저장한다.
@@ -27,6 +26,24 @@
 	 
 	    Random ran = new Random();
 	    
+	    a = ran.nextInt(10);
+	    c = ran.nextInt(10) + 11;
+	    
+	    System.out.println("a = " + a);
+	    System.out.println("c = " + c);
 	%>
+	
+	<% if(b - a < c - b){ %>
+		<%= "a가 가깝다." %>
+	<% } %>
+	
+	<% if(b - a > c - b){ %>
+		<%= "c가 가깝다." %>
+	<% } %>
+	
+	<% if(a == c) { %>
+	    <%= "서로 같다." %>
+	<% } %>
+	
 </body>
 </html>

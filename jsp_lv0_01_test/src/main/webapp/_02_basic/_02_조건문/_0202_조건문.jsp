@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
 	<%	
 		/*
 		    [문제]
@@ -24,7 +23,6 @@
 		int a = 5;
 		Random ran = new Random();
 		int b = ran.nextInt(10) + 1;
-		
 	%>
 	
 	<%=b %>
@@ -38,6 +36,7 @@
 	<%} %>
 	<%if(b == a){ %>
 		<%=String.format("b : %d가 a : %d가 같다." , b , a) %>
+		<%=System.out.printf("b : %d가 a : %d가 같다." , b , a) %>
 	<%} %>
 </body>
 </html>
