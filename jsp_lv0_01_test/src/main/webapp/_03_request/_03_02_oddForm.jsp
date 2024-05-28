@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h2>홀수짝수 판별</h2>
+	<form action="_03_02_oddPro.jsp">
+		숫자 : <input type="text" name="num">
+		<input type="submit" value="입력완료">
+	</form>
 </body>
 </html>

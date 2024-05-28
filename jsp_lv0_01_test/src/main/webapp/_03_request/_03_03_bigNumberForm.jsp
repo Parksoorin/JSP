@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>나이를 입력하세요.</h2>
-	<form action="_03_01_requestPro.jsp">
-		나이 : <input type="text" name="age">
+	<form action="_03_03_bigNumberPro.jsp">
+		<h2>더 큰 숫자 찾기</h2>
+		
+		숫자 1 : <input type="text" name="num1">
+		숫자 2 : <input type="text" name="num2">
+		
 		<input type="submit" value="입력완료">
 	</form>
 </body>

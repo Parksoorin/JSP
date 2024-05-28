@@ -7,10 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>나이를 입력하세요.</h2>
-	<form action="_03_01_requestPro.jsp">
-		나이 : <input type="text" name="age">
-		<input type="submit" value="입력완료">
-	</form>
+<%--
+	 [과제]
+	 
+	 [최대값 구하기]
+	
+	  1. 숫자 3개를 입력받는다.
+	  2. 입력받은 3개의 수를 비교한다.
+	  3. 가장 큰 수(MAX)를 출력한다.
+
+ --%>
+
 </body>
 </html>

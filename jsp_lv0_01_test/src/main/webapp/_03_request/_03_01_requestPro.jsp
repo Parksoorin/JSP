@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%
+		String strAge = request.getParameter("age");
+		int age = Integer.parseInt(strAge);
+	%>
+	당신의 나이는 <%= age %>세 입니다. 
 </body>
 </html>
